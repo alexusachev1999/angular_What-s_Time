@@ -1,0 +1,25 @@
+.buttonMain {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 1em;
+}
+.buttonStyle{
+  background-color: chocolate;
+  color: black;
+  width: 400px;
+  height: auto;
+  border: 4px solid black;
+  border-radius: 10px;
+  font-size: xxx-large;
+  margin-right: 3rem;
+}
+.buttonStyle:hover{
+  background-color: black;
+  color: chocolate;
+  width: 400px;
+  height: auto;
+  border: 4px solid black;
+  border-radius: 10px;
+  font-size: xxx-large;
+  margin-right: 3rem;
+}

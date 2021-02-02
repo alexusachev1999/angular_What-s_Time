@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  padding: 0;
+  margin: 0;
+}
+.cityMainBlock {
+  background-color: burlywood;
+  border: 4px solid black;
+  display: grid;
+  grid-gap: 1em;
+}
+.cityName {
+  margin-top: 10px;
+  font-size: xxx-large;
+  text-align: center;
+  width: available;
+  justify-self: center;
+}
+.timeFormat {
+  font-size: xx-large;
+  text-align: center;
+  background: #b08647;
+  border: 4px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cityImages{
+  grid-auto-rows: 200px;
+  grid-auto-columns: 200px;
+  border: 2px solid black;
+  justify-self: center;
+}
+img{
+  justify-self: center;
+  object-fit: contain
+}
+.cityDescription{
+ font-size: xx-large;
+  border: 2px solid black;
+}
+.cityRefToWiki {
+  justify-self: center;
+  font-size: xxx-large;
+  text-decoration: none
+}
+.cityRefToWiki:hover{
+  justify-self: center;
+  font-size: xxx-large;
+  background-color: black;
+  color: #ffd798;
+}
+a.linkToWiki{
+  color: #000 !important;
+  text-decoration: none
+}
+a.linkToWiki:hover{
+  color: #e0c48e !important;
+  text-decoration: none
+}
+

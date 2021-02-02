@@ -1,0 +1,38 @@
+.bottomMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #d4ad72;
+  color: black;
+}
+.city{
+  border: 2px solid black;
+  font-size: xx-large;
+  text-align: center;
+}
+.year{
+  border: 2px solid black;
+  font-size: xx-large;
+  text-align: center;
+}
+.dev{
+  border: 2px solid black;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: none;
+}
+.dev:hover{
+  border: 2px solid black;
+  font-size: xx-large;
+  text-align: center;
+  background-color: black;
+  color: #cda86f;
+  text-decoration: none;
+}
+a.linkToVk {
+  color: #000 !important;
+  text-decoration: none;
+}
+a.linkToVk:hover {
+   color: #caaf57 !important;
+   text-decoration: none;
+ }

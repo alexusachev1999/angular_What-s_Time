@@ -1,0 +1,14 @@
+<div class="buttonMain">
+  <div><button class="buttonStyle" (click)="switcher = 1">Санкт-Петербург</button></div>
+  <div><button class="buttonStyle" (click)="switcher = 2">Токио</button></div>
+  <div><button class="buttonStyle" (click)="switcher = 3">Париж</button></div>
+  <div><button class="buttonStyle" (click)="switcher = 4">Нью-Йорк</button></div>
+</div>
+<br/>
+<br/>
+<div [ngSwitch]="switcher">
+  <div *ngSwitchCase="1"><app-spb></app-spb></div>
+  <div *ngSwitchCase="2"><app-tokyo></app-tokyo></div>
+  <div *ngSwitchCase="3"><app-paris></app-paris></div>
+  <div *ngSwitchCase="4"><app-ny></app-ny></div>
+</div>
